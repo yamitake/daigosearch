@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  area_id: 1
+  company_id: 1
+  industry_id: 1
+  state: 1
+  open_date: 2020-01-08
+  close_date: 2020-01-08
+
+two:
+  name: MyString
+  description: MyText
+  area_id: 1
+  company_id: 1
+  industry_id: 1
+  state: 1
+  open_date: 2020-01-08
+  close_date: 2020-01-08

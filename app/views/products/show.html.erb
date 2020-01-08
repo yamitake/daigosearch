@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @product.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @product.description %>
+</p>
+
+<p>
+  <strong>Area:</strong>
+  <%= @product.area_id %>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @product.company_id %>
+</p>
+
+<p>
+  <strong>Industry:</strong>
+  <%= @product.industry_id %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @product.state %>
+</p>
+
+<p>
+  <strong>Open date:</strong>
+  <%= @product.open_date %>
+</p>
+
+<p>
+  <strong>Close date:</strong>
+  <%= @product.close_date %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
