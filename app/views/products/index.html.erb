@@ -2,6 +2,13 @@
 
 <h1>Products</h1>
 
+<div class="search_box">
+  <%= form_with url: products_path, method: :get, local: true do |f|%>
+    <%= f.text_field :q %>
+    <%= f.submit 'search' %>
+  <% end %>
+</div>
+
 <table>
   <thead>
     <tr>
