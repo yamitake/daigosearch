@@ -49,6 +49,4 @@ test:
 #
 production:
   <<: *default
-  database: daigosearch_production
-  username: daigosearch
-  password: <%= ENV['DAIGOSEARCH_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
